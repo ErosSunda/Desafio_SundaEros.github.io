@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+    display: grid;
+    place-items: center;
+    margin: auto;
+}
+@font-face {
+    font-family: Melted;
+    src: url(../Fuentes/Melted\ Monster.ttf);
+}
+@font-face {
+    font-family: Roman;
+    src: url(../Fuentes/Roman\ SD.ttf);
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-family: Roman;
+}
+h2{
+    color: rgb(105, 0, 0);
+    font-family: Melted;
+}
+p{
+    color: white;
+}
+.Parrafo{
+    width: 600px;
+    padding: 10px;
+    border-style: double;
+    border-color: red;
+    border-width: 10px;
+}
+h4{
+    color: red;
+    display: grid;
+    place-items: center;
+    margin: auto;
+}
+h3{
+    font-size: 40px;
+    font-family: Melted;
+    color: red;
+    display: grid;
+    place-items: center;
+    margin: auto;
+}
+.Boton{
+    background-color: rgb(133, 0, 0);
+    color: white;
+    font-family: Melted;
+    font-size: 20px;
+}
+.Botones{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+   
